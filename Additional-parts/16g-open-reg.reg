@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.16g]
+@="16g_기계어"
+
+[HKEY_CLASSES_ROOT\16g_기계어]
+@="16g_기계어"
+
+[HKEY_CLASSES_ROOT\16g_기계어\shell]
+
+[HKEY_CLASSES_ROOT\16g_기계어\shell\open]
+
+[HKEY_CLASSES_ROOT\16g_기계어\shell\open\command]
+@="\"C:\Users\joo\Desktop\MT\16g.exe\" -loop \"%1\""
